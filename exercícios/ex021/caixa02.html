@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        main {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+
+        body {
+            margin: 0px;
+            background-color: lightgray;
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > p {
+            background-color: gray;
+        }
+
+        nav {
+            padding: 3px;
+            background-color: gray;
+            box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        nav > a:active {
+            color: blue;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a {   
+            text-decoration: none;        
+            color: white;
+            font-weight: bolder;  
+            margin-right: 30px;         
+        }
+
+        main {
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.5);
+        }
+
+        article {  
+            padding: 10px;        
+            background-color: lightgrey;
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+
+        footer {
+            margin: 0px;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            background-color: black;
+        }
+
+        div#bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a> <a href="#">Link</a> <a href="#">Link</a> <a href="#">Link</a> <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <p>
+            <ul>
+                <li>Política</li>
+                <li>Tecnologia</li>
+                <li>Clima</li>
+                <li>Esportes</li>
+                <li>Música</li>
+            </ul>
+        </p>
+        <section>
+            <article>
+                <h1>Notícias sobre o Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cupiditate quisquam odio? Tempore repellendus eligendi necessitatibus, voluptate error possimus magnam vel assumenda eos excepturi suscipit praesentium. Assumenda laboriosam non excepturi.</p>
+                <aside><p>Escrito por Guilherme R. de Oliveira</p></aside>
+            </article>
+        </section>
+    </main>
+    <footer>Criado por GRO's Web-Services</footer>
+    <div id="bola"></div>
+</body>
+</html>
